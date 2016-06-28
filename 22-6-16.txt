@@ -1,0 +1,16 @@
+Today we finally started writing code for our django application.
+We decided the settings for our django project.
+That turned out to be difficult since the settings should be written in such a way that
+they run both on our computers and on Heroku's servers.
+
+Our computers and Heroku's servers are configured very differently.
+Our computer hosts code insecurely on our network interfaces, Heroku hosts code behind a secure reverse-proxy.
+We want to use SQLite as our database backend while Heroku uses PosgtreSQL.
+Because of that it took us a lot of time to set up.
+
+Important software should always be thoroughly tested using automated testing.
+So we decided to do that for our code. That will help reduce regression bugs.
+We decided to use a Continous Integration (CI) server for automated testing.
+We chose Travis CI, since that is free for open source projects (like ours).
+we read documentation and learned how to do that.
+I added a .travis.yml file to our repository.

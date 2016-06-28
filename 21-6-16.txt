@@ -1,0 +1,19 @@
+I realized that we would have to learn a version control system like Git to be able to collaborate effectively.
+I'm the only one who knew Git beforehand.
+We had discussed this before and I had told others to learn Git.
+But they were not as successful at it (learning git can be difficult for those who are new to software development)
+Therefore I introduced other members of my group to Git.
+I explained them the features of Git and how it is applicable to our project.
+I also told them which parts of Git they should learn and which parts they should leave for later learning.
+I also told them to leave out parts of Git which are difficult since I can handle them instead.
+
+We discussed more about python.
+We discussed doubts people had and we solved a few programming problems using python.
+The python practice today was very fruitful.
+I also discussed which features of python will be needed more for our project and I told others to focus more on them.
+
+Python has 2 versions, python 2 and python 3. They are mostly similar but there are small differences between them.
+Some people are learning python 2 while some people are learning python 3.
+It would be difficult for people learning one type if we choose to write code in the other.
+Since I know both the versions, we decided to write code in a way that compatible with both python 2 and 3.
+If something is difficult to write in this way, I'll do that.

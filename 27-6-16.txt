@@ -1,0 +1,4 @@
+We decided which fields should be Nullable and which shouldn't.
+We also specified appropriate database constraints and default values.
+We then added more information to the models so that they could be used with the django admin.
+Today model specification is complete.

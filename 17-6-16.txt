@@ -1,0 +1,12 @@
+We had decided yesterday that we'll make our own web application.
+Today we decided that we will make our application in Django.
+To make a web application using Django, we write code in the Python programming language which using libraries provided by Django.
+
+Since web development in Django requires writing code in python and since web pages are made using HTML/CSS and JavaScript,
+we decided to learn these technologies.
+Some of us know a small amount of python and I know python well.
+Some of us, including me, know a small amount of HTML and CSS.
+
+So today, we searched for resources from where we could learn python and HTML/CSS.
+We decided to continue learning over the weekend.
+Since I was the only one who knew python well enough, I decided to refresh my knowlege of django over the weekend.

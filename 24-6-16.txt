@@ -1,0 +1,10 @@
+Yesterday we had read about and set up linters and code checkers to use on our code.
+Today we had to write scripts to use these linters and checkers on appropriate files and give out appropriate exit codes.
+We then added commands in .travis.yml so that these scripts would be run on our CI server.
+We had to again see Travis documentation to do that.
+
+After that we wrote code for our models.
+While writing some code, we realized that our database schema was not appropriate and we decided to modify it.
+It started becoming more complex and we were afraid of going forward with the modifications.
+So we discussed a lot about possible use cases. We decided to go ahead with the schema modifications.
+I finished writing the basic stuff for the models.

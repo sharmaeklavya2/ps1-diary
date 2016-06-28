@@ -1,0 +1,10 @@
+We are still struggling with setting up Sahana Eden. We thought using a Docker would be easy but it's not.
+So we gave up after some time and instead decided to set it up on a server on the cloud.
+I have a digitalocean account, so I rented a server.
+It didn't cost me money because I have a free credits from my Github student pack.
+I hosted an Ubuntu server and tried to set up Sahana on it using the Apache/MySQL instructions.
+
+That didn't go well. The script used to fail at various points.
+Some of the packages Sahana Eden was using were upgraded and it was no longer compatible with those packages.
+Upon further investigation, I realized that Sahana Eden is not a well maintained project and is slowly suffering software rot.
+Therefore we gave up on using Sahana Eden and decided to build our own web application.

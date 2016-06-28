@@ -1,0 +1,9 @@
+Since all of us don't know django, it would be difficult for others to know what is going on in the project.
+Those who are focussing on python will still be able to understand something in the django code,
+but those who are focussing on HTML, CSS will not be able to understand anything.
+Running django code on one's own computer is difficult for those who don't know django.
+So we decided to deploy our code on a cloud so that everyone in our group can view it.
+We chose Heroku for this.
+
+Today I spent the day learning how to deploy a web application on Heroku.
+I had already developed some django applications before joining PS1 and I practiced by deploying them.

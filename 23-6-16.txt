@@ -1,0 +1,18 @@
+Today Quiz 2 was held.  The questions were tested whether we were aware what all work other groups in Red Cross are doing.
+I didn't exactly know about one or two groups.
+
+Even though we had set up a CI server, there wasn't much that we were testing.
+We were just testing whether our settings were valid or not.
+This is clearly not enough.
+But since we had not written any application logic, we could only include linters and static type checkers right now.
+
+We added pyflakes as a linter and code checker.
+However, pyflakes is not very good at either (jack of both, master of none).
+So for linting we added a custom linter.
+I copied and modified some code for that from Zulip
+(a famous open-source django web application, https://zulip.org), where I am a contributor.
+
+We added mypy as a static type checker. To use mypy, we'll have to type annotate our code.
+I am familiar with mypy and mypy annotation is easy to learn.
+So I'll help my friends if they face problems in adding annotations.
+We'll stop annotating code if that gives problems.
