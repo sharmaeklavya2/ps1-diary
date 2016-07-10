@@ -1,0 +1,6 @@
+Some code cleanup was required. This also included some suggestions by Joint Secretary in the presentation.
+Add id to list_display of School and SubDistrict.
+Use 'School' and 'College' as type of school instead of using 'Junior' and 'Youth'.
+Also change volunteer type from 'J', 'Y', 'C' to 'Junior', 'Youth', 'Community'.
+Also set School's verbose name to 'School/College'.
+This commit will invalidate existing data. Fortunately it's easy to correct that from the admin interface.

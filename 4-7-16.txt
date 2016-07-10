@@ -1,0 +1,13 @@
+I changed aadharid to a CharField from an IntegerField (database type: int to varchar).
+I also put a RegexValidator on the field to validate it only when it is made up of 12 numeric digits.
+So now we have the same formatting advantage that integer field gives us.
+And we can now also search by aadharid in the admin page (we cannot search on IntegerField, but we can on CharField).
+This will be very beneficial because staff will mostly be searching for volunteers by Aadhar ID.
+
+It took me very long to find documentation about RegexValidators. Previously I didn't even know about validators.
+After searching a lot on StackOverflow, I found about validators. I read about them in the documentation.
+Then I had to go through the list of all validators, trying to figure out which one of them is appropriate.
+After going through the list, it was almost obvious to use a RegexValidator.
+I then read about how to apply the validator.
+I tried to find out whether to use a regex or a non-unicode regex (for python2 compatibility),
+but it turned out that that didn't matter. Both work well.

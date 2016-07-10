@@ -1,0 +1,10 @@
+Today I started work on a script to load location data from CSV files.
+There will be a CSV file for states which will include the state code and State name.
+There will be a CSV file for districts which will include district pin, state code and district name.
+There will be a CSV file for subdistricts which will include pincode and subdistrict name.
+
+The script will be helpful because we won't have to add states again and again with every database reset in development.
+This will also make things quicker in production.
+
+I added code to read CSV files. I'm yet to see how to put this code inside a database.
+I tried to see bulk_create operation but that will give problems if objects already exist in database.

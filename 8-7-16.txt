@@ -1,0 +1,7 @@
+Today I wrote code to allow filtering volunteers by active/inactive.
+This required me to write some good amount of ORM querying code.
+Since the probability of making errors is high, I wrote automated tests for this code.
+This will make sure that if someone makes wrong changes to this code, tests will catch that.
+I also made these tests run on Travis CI.
+
+I also added a custom list filter for this by subclassing SimpleListFilter.

@@ -1,0 +1,9 @@
+Today I made pincode as primary key in SubDistrict instead of the default autoincremented id.
+This has the benefit that it will now be easy to add subdistrict in admin.
+Previously we had to look up the id of each subdistrict.
+Now we just have to enter the subdistrict's pin code.
+
+This was difficult to implement.
+I was using an autoincremented id as the surrogate key instead of using (pin, district_id) as the primary key.
+This is because Django does not support using a composite primary key.
+To change it, I had to override the save method.

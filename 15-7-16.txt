@@ -1,0 +1,17 @@
+I finally figured out how to add objects into database.
+I will do a bulk_create and check if an IntegrityError is raised.
+It doesn't matter if bulk_create operation is not atomic,
+since we already have to deal with the problem of already existing objects.
+On catching the IntegrityError, I'll fall back to calling save() on each object.
+save does things nicely. It tries to do an update based on the primary key
+and does an insert if the update fails.
+
+I also added sample data to test out my scripts and committed that to the git repository.
+
+I also added tests for this in Travis.
+
+I also added my database migration to the git repository.
+Previously it was not version-controlled because our schema wasn't stable.
+
+I also reset my heroku instance and populated it remotely.
+It worked.

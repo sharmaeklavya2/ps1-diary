@@ -1,0 +1,6 @@
+Change date format to DD-MM-YYYY instead of the default YYYY-DD-MM.
+This will make it easier for people to fill in the date manually.
+
+Also make lib/str_utils.py, which efficiently converts between various types of data.
+This will be helpful in converting various types of string inputs.
+This will be helpful when opening files and reading input in a format which is different from what we want.

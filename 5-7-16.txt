@@ -1,0 +1,16 @@
+I also used raw_id_fields for foreign key fields in the admin interface.
+This had the advantage that now we won't get a big dropdown for foreign keys.
+We will be able to fill out the foreign key's primary key directly in a text box.
+If we don't know the primary key, there is a small magnifying glass button near the text box.
+Clicking on it will open up a pop up box where we can search for the object we are looking for.
+
+It took me a long time to figure this solution out.
+I first tried to use autocomplete from django-extensions, but that failed with a weird error.
+I tried a lot to debug it and search for how to fix it but I was unsuccessful.
+I then tried to use a custom widget.
+But I realized that the custom widget was only usable on a ModelForm.
+That meant I would have had to write a custom ModelForm for my admin page.
+That would have meant a significant loss in flexibility which django admin gives us.
+Then after a lot of searching, I finally found a suggestion to use raw_id_fields on StackOverflow.
+
+Both the features implemented in the last 2 days are major improvements and I'm very satisfied with today's work.
