@@ -1,0 +1,4 @@
+Today we worked on getting models to show up correctly on the admin interface.
+Registering models was easy.
+Then we decided which fields should show up in the list display.
+We also decided to keep the registration model as Inline.

@@ -1,0 +1,14 @@
+Today a group discussion was held at 10:30 pm. The topic of the group discussion was 'Current trends in Computer-based education'.
+Everyone discussed about trends in Computer-based education from primary schools up to college.
+We talked about how computer-based education started, how it gained popularity and how it is advancing right now.
+People primarily spoke about role of computer-based education in college students' life,
+probably because they have first-hand experience in this subject.
+
+I talked about how computers help people connect and how this is useful for students to get projects.
+Professors in a student's university might not be interested in giving him a project because
+either they have already taken students or because they are not interested in the subject.
+However, there are various online programs where people can find experienced mentors and professors
+under which they can do a project, like Google Summer of Code, programs conducted by various universities, etc.
+
+After the discussion was over, me and my team mates looked at how much progress we have made with our project
+and what all needs to be accomplished.

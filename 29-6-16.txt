@@ -1,0 +1,7 @@
+Today we added list filters and search fields to our models' admin page.
+This required us to read a lot of documentation.
+
+The list filters allow us to specify things on which to
+filter search results, like gender, state and institution type.
+The search fields add a search box to the top of the admin page
+which can be used to search for text in chosen text fields of all records.

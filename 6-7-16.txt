@@ -1,0 +1,19 @@
+Today we had to present our project in a meeting to the people at Red Cross.
+Before the meeting began, we gave final touches to our powerpoint presentation and decided who will speak what.
+During the meeting, all groups presented their projects.
+Most of them had completed their work and they had done a good job according to me.
+
+Snimar had designed a very good website for Red Cross.
+He had also put a provision for them to add/edit/remove content without relying on the web master.
+Yet, it was somewhat critisized by the people at Red Cross.
+I didn't like that.  Red Cross people didn't know how much effort went behind it.
+I did because I am somewhat experienced in web development.
+They mostly critisized him for content, not realizing that it was their duty to change the content,
+which Snimar had made a provision for.
+We are here for writing code and we shouldn't be expected to do anything apart from that.
+We are engineers, not writers.
+
+My presentation went well. They were happy with what I had done.
+We will now meet again on Friday. I was told to add many more things.
+I don't know if I'll be able to do that, since I have just a week left.
+They want this project to be up. I'll try and do that.

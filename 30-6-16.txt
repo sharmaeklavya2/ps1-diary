@@ -1,0 +1,7 @@
+We modified the models.py file and the admin.py file to fine-tune the admin display.
+We added more descriptive help fields to models.py.
+We added and removed fields from list display, list filters and search fields.
+
+We also wanted to reduce the space occupied by the inline Registration fields.
+After a lot of searching, we found out that we had to use
+TabularInline instead of StackedInline to achieve that.
