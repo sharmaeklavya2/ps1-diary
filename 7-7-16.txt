@@ -2,16 +2,11 @@ Today I added a list filter for volunteer type.
 Now it is possible to filter volunteers as Junior, Youth and Community.
 Previously it was possible to filter out junior and youth volunteers
 but no way to filter out community volunteers.
-This was because list_filter takes a field name to filter on.
-The field I provided existed on a join with the School table.
-Community volunteers have no School and so no corresponding entry in the join table.
 
 I fixed this problem by making a custom list filter.
 To do this I had to subclass SimpleListFilter and override appropriate methods.
-I used the overriden methods to specify the filters and their corresponding querysets.
 
 I also did some cleaning up of the code.
 I abstracted out aadharid's length into a separate variable called AADHAR_LENGTH.
 I improved the representation of Districts and SubDistricts in the admin page.
-I also added id fields to all models to help mypy with type checking.
-This proved to be useful later when I used id in my code.
+I also added dummy id fields to all models to help mypy with type checking.
